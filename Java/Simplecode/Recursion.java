@@ -6,8 +6,8 @@ public class Recursion {
 
     }
     public static void natprint(int n){
-        if (n==1){
-            System.out.println(1);
+        if (n==0){
+            System.out.println(0);
         }
         else{
             System.out.println(n);
