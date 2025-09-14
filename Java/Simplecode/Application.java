@@ -1,0 +1,22 @@
+package Java.Simplecode;
+
+class Application{
+    String  name;
+    int rollno;
+
+    public void display(){
+        System.out.println(name);
+        System.out.println(rollno);
+    }
+    
+    class{
+
+    
+    public static void main(String args[]){
+        Application Form = new Application();
+        Form.name = "Abi";
+        Form.rollno = 2;
+        Form.display();
+    }
+}
+}
