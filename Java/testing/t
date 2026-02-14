@@ -1,0 +1,16 @@
+public class t {
+    public static void main(String[] args) {
+        int[] arr = {9, 4, 4, 5};
+        int number = 4;
+
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == number) {
+                System.out.println("Yes");
+                return; // stop program once found
+            }
+        }
+
+        // runs only if number was NOT found
+        System.out.println("No");
+    }
+}
